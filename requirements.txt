@@ -1,0 +1,5 @@
+discord
+feedparser
+dotenv
+pyyaml
+
