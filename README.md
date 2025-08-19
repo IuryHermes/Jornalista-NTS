@@ -1,64 +1,74 @@
-# DiscoRSS
+📰 Jornalista NTS – Bot de Notícias para Discord
 
-This Python script fetches the latest entries from multiple RSS feeds and sends them to a Discord channel. The bot uses the discord and feedparser libraries to interact with Discord and parse RSS feeds, respectively.
 
-# Dependencies
 
-* discord
-* feedparser
-* dotenv
-* pyyaml
 
-# How to Use
 
-## Critical prerequisites to install
 
-* run ```pip3 install -r requirements.txt```
+O Jornalista NTS é um bot para Discord que envia automaticamente notícias de várias fontes de tecnologia, segurança e entretenimento diretamente para os canais configurados no servidor.
 
-* **Rename the file `.env.dev` to `.env`**
+✨ Funcionalidades
 
-## Step 1: Create a Discord bot
+📡 Coleta notícias de múltiplas fontes RSS.
 
-1. Go to https://discord.com/developers/applications create an application
+⏰ Publica dentro de horários configurados.
 
-[![image-17.png](https://i.postimg.cc/rp6J7h8D/image-17.png)](https://postimg.cc/QFb1TJKD)
+📌 Permite escolher os canais onde as notícias serão postadas.
 
-2. Build a Discord bot under the application
+🔒 Configuração via arquivo .env para manter segurança do token.
 
-[![image.png](https://i.postimg.cc/zv5J5JDz/image.png)](https://postimg.cc/TL78JvWF)
+🖥️ Código 100% em Python.
 
-3. Click Reset Token and then copy the token
+🚀 Instalação e Configuração
+1. Clonar o repositório
+git clone https://github.com/IuryHermes/Jornalista-NTS.git
+cd Jornalista-NTS
 
-[![image.png](https://i.postimg.cc/sgBCkBPP/image.png)](https://postimg.cc/18Zd63j4)
+2. Criar ambiente virtual (opcional, mas recomendado)
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
-4. Turn ALL INTENT `ON`
+3. Instalar dependências
+pip install -r requirements.txt
 
-[![image.png](https://i.postimg.cc/RF48ZqtD/image.png)](https://postimg.cc/3yf9L8nX)
+4. Configurar variáveis no .env
 
-5. Invite your bot to your server via OAuth2 URL Generator
+Crie um arquivo .env na raiz do projeto (ou edite o existente) com os dados do bot:
 
-[![image.png](https://i.postimg.cc/yd3PBHQb/image.png)](https://postimg.cc/ZBZ3F1h8)
+DISCORD_TOKEN=seu_token_aqui
+CHANNEL_IDS=123456789012345678,987654321098765432
 
-## Step 2: Storing the values
 
-1. Store the Discord Channel ID, Bot Token, RSS Feed URLs and Timezone to `.env` under the `DISCORD_CHANNEL_ID`, `DISCORD_BOT_TOKEN`, and `RSS_FEED_URLS`
+DISCORD_TOKEN → Token do seu bot no Discord Developer Portal
+.
 
-[![image.png](https://i.postimg.cc/kGgV2CkH/image.png)](https://postimg.cc/njNVWyVK)
+CHANNEL_IDS → IDs dos canais onde as notícias serão postadas (separados por vírgula).
 
-You're all set.
+5. Executar o bot
+python main.py
 
-## Run the bot on the desktop
+📡 Fontes de Notícias
 
-1. Open a terminal or command prompt
+Atualmente o bot publica notícias de:
 
-2. Navigate to the directory where you cloned the repository
+🌐 Canaltech
 
-3. Run `python3 main.py` to start the bot
+🎮 UOL Jogos
 
-## How the bot works
+🔒 SegInfo
 
-* This bot works by periodically fetching the latest articles from one or more RSS feeds and sending them to specified Discord channels.
+🎬 Anime United
 
-* When the bot starts, it logs in to Discord using a bot token and sets up a loop that runs indefinitely. Inside the loop, the bot fetches the RSS feeds and checks for new articles. If a new article is found, the bot sends a message to the specified Discord channel with the article title and link.
+📂 Outros feeds configurados
 
-* The bot keeps track of which articles have already been sent to each channel using a YAML file called sent_articles.yaml. This file is updated every time a new article is sent, to ensure that duplicate articles are not sent to the same channel.
+📷 Exemplo no Discord:<img width="907" height="456" alt="image" src="https://github.com/user-attachments/assets/350061ae-3887-41cb-a06e-fc71639162e4" />
+
+🤝 Contribuição
+
+Quer sugerir novas fontes de notícias ou melhorar o bot?
+Faça um fork do repositório, crie uma branch e abra um Pull Request!
+
+📜 Licença
+
+Este projeto está sob a licença MIT – fique à vontade para usar e modificar.
