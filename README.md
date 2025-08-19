@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Crie um arquivo .env na raiz do projeto (ou edite o existente) com os dados do bot:
 
 DISCORD_TOKEN=seu_token_aqui
-CHANNEL_IDS=123456789012345678,987654321098765432
+CHANNEL_IDS=seu_id_do_canal
 
 
 DISCORD_TOKEN → Token do seu bot no Discord Developer Portal
