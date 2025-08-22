@@ -1,0 +1,42 @@
+feeds:
+  # Segurança
+  - url: "https://www.welivesecurity.com/pt/rss/feed"
+    emoji: "🛡️"
+  - url: "https://seginfo.com.br/feed"
+    emoji: "🔒"
+  - url: "https://convergenciadigital.com.br/feed"
+    emoji: "🌐"
+
+  # Programação
+  - url: "http://tecnologia.uol.com.br/ultnot/index.xml"
+    emoji: "💻"
+  - url: "https://edivaldobrito.com.br/feed"
+    emoji: "📚"
+
+  # Linux & Servidores
+  - url: "https://feeds.feedburner.com/sempreupdate"
+    emoji: "🐧"
+  - url: "https://www.vivaolinux.com.br/rss"
+    emoji: "🐧"
+  - url: "https://diolinux.com.br/feed"
+    emoji: "🐧"
+
+  # Cloud
+  - url: "https://aws.amazon.com/pt/blogs/aws/feed/"
+    emoji: "☁️"
+  - url: "https://azurecomcdn.azureedge.net/pt-br/blog/feed/"
+    emoji: "☁️"
+
+  # Tecnologia & Games
+  - url: "https://feeds2.feedburner.com/canaltechbr"
+    emoji: "📱"
+  - url: "https://feeds.feedburner.com/tecnoblog"
+    emoji: "🔧"
+  - url: "https://rss.tecmundo.com.br/feed"
+    emoji: "⚙️"
+  - url: "http://rss.uol.com.br/feed/jogos.xml"
+    emoji: "🎮"
+  - url: "https://www.animeunited.com.br/feed"
+    emoji: "🎬"
+  - url: "https://www.gamevicio.com/rss"
+    emoji: "🎯"
