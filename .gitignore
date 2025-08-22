@@ -4,3 +4,4 @@ __pycache__/
 *.db
 venv/
 sent_links.txt
+sent_articles.yaml
