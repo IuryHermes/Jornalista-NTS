@@ -1,5 +1,5 @@
 feeds:
-  # Segurança
+  # 🔐 SEGURANÇA
   - url: "https://www.welivesecurity.com/pt/rss/feed"
     emoji: "🛡️"
   - url: "https://seginfo.com.br/feed"
@@ -7,13 +7,13 @@ feeds:
   - url: "https://convergenciadigital.com.br/feed"
     emoji: "🌐"
 
-  # Programação
+  # 💻 PROGRAMAÇÃO
   - url: "http://tecnologia.uol.com.br/ultnot/index.xml"
     emoji: "💻"
   - url: "https://edivaldobrito.com.br/feed"
     emoji: "📚"
 
-  # Linux & Servidores
+  # 🐧 LINUX & SERVIDORES
   - url: "https://feeds.feedburner.com/sempreupdate"
     emoji: "🐧"
   - url: "https://www.vivaolinux.com.br/rss"
@@ -21,13 +21,13 @@ feeds:
   - url: "https://diolinux.com.br/feed"
     emoji: "🐧"
 
-  # Cloud
+  # ☁️ CLOUD
   - url: "https://aws.amazon.com/pt/blogs/aws/feed/"
     emoji: "☁️"
   - url: "https://azurecomcdn.azureedge.net/pt-br/blog/feed/"
     emoji: "☁️"
 
-  # Tecnologia & Games
+  # 📱 TECNOLOGIA & GAMES
   - url: "https://feeds2.feedburner.com/canaltechbr"
     emoji: "📱"
   - url: "https://feeds.feedburner.com/tecnoblog"
